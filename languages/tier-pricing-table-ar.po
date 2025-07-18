@@ -1,0 +1,282 @@
+# Copyright (C) 2025 U2Code
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Tiered Price Table 5.1.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tiered-pricing-table\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-15T21:31:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: tier-pricing-table\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Tiered Price Table"
+msgstr "جدول أسعار متدرج لـ WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://tiered-pricing.com/"
+msgstr "https://tiered-pricing.com/"
+
+#. Description of the plugin
+msgid "Quantity-based discounts with nice-looking reflection on the product page."
+msgstr "خصومات على أساس الكمية مع انعكاس جميل المظهر على صفحة المنتج."
+
+#. Author of the plugin
+msgid "U2Code"
+msgstr "U2Code"
+
+#. Author URI of the plugin
+msgid "https://u2code.com"
+msgstr "https://u2code.com"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsAddon.php:14
+msgid "Additional product quantity options"
+msgstr "خيارات كمية المنتج الإضافية"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsAddon.php:18
+msgid "Manage maximum quantity and quantity step for products."
+msgstr "إدارة الحد الأقصى للكمية وخطوة الكمية للمنتجات."
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:111
+msgid "Additional quantity options"
+msgstr "خيارات الكمية الإضافية"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:131
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:147
+#: views/admin/components/minimum-order-quantity-form.php:34
+msgid "Leave empty, so don't add any restrictions"
+msgstr "اتركه فارغًا ، لذلك لا تقم بإضافة أي قيود"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:133
+msgid "Maximum order quantity"
+msgstr "الحد الأقصى لكمية الطلب"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:134
+msgid "The maximum quantity of the product a customer can order in a single transaction."
+msgstr "أقصى كمية من المنتج يمكن للعميل طلبها في معاملة واحدة."
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:146
+#: src/Addons/AdvancedQuantityOptions/GlobalPricingOptions.php:98
+#: src/Addons/AdvancedQuantityOptions/ProductEditor/QuantityStepBlock.php:30
+msgid "Quantity step"
+msgstr "خطوة الكمية"
+
+#: src/Addons/AdvancedQuantityOptions/AdvancedQuantityOptionsForm.php:149
+msgid "Requires the product to be purchased in multiples of X."
+msgstr "يتطلب شراء المنتج بمضاعفات X."
+
+#: src/Addons/AdvancedQuantityOptions/GlobalPricingOptions.php:88
+#: src/Addons/GlobalTieredPricing/CPT/Columns/AppliedQuantityRules.php:13
+msgid "N/A"
+msgstr "غير متاح"
+
+#: src/Addons/AdvancedQuantityOptions/GlobalPricingOptions.php:93
+msgid "Maximum"
+msgstr "الحد الأقصى"
+
+#: src/Addons/AdvancedQuantityOptions/ProductEditor/MaximumOrderQuantityBlock.php:30
+msgid "Maximum Order Quantity"
+msgstr "الحد الأقصى لكمية الطلب"
+
+#: src/Addons/AdvancedQuantityOptions/ProductEditor/ProductEditor.php:26
+msgid "Advanced Quantity Options"
+msgstr "خيارات الكمية المتقدمة"
+
+#. translators: %1$s: item name, %2$s: minimum quantity
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:50
+msgid "Maximum quantity for the %1$s is %2$d"
+msgstr "الكمية القصوى لـ %1$s هي %2$d"
+
+#. translators: %s: quantity step
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:59
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:131
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:210
+msgid "Order quantity must be multiple of %s"
+msgstr "يجب أن تكون كمية الطلب من مضاعفات %s"
+
+#. translators: %s: maximum quantity
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:120
+#: src/Addons/AdvancedQuantityOptions/QuantityManager.php:198
+msgid "Maximum order quantity for the product is %s"
+msgstr "الحد الأقصى لكمية الطلب للمنتج هو %s"
+
+#: src/Addons/CategoryTiers/CategoryTierAddon.php:13
+msgid "Category level tiered pricing (deprecated)"
+msgstr "التسعير المتدرج على مستوى الفئة (مهمل)"
+
+#: src/Addons/CategoryTiers/CategoryTierAddon.php:43
+msgid "Skip category rules"
+msgstr "تخطي قواعد الفئة"
+
+#: src/Addons/CategoryTiers/CategoryTierAddon.php:44
+msgid "Don't take into account tiered pricing rules from categories. "
+msgstr "لا تأخذ في الاعتبار قواعد التسعير المتدرج من الفئات."
+
+#: src/Addons/CategoryTiers/CategoryTierAddon.php:233
+msgid "Allows to set tiered pricing for at product category level. Use global rules instead."
+msgstr "يسمح بتعيين التسعير المتدرج على مستوى فئة المنتج. استخدم القواعد العامة بدلاً من ذلك."
+
+#: src/Addons/Coupons/CouponsAddon.php:9
+#: views/admin/welcome-page/welcome-page.php:521
+msgid "Coupons management"
+msgstr "إدارة القسائم"
+
+#: src/Addons/Coupons/CouponsAddon.php:60
+msgid "Check this option to don't  apply tiered pricing in the cart when users have applied this coupon."
+msgstr "حدد هذا الخيار لعدم تطبيق التسعير المتدرج في سلة التسوق عندما يقوم المستخدمون بتطبيق هذه القسيمة."
+
+#: src/Addons/Coupons/CouponsAddon.php:67
+msgid "It allows you to manage which coupons will allow tiered pricing and which will not."
+msgstr "يسمح لك بإدارة القسائم التي ستسمح بالتسعير المتدرج والتي لن تسمح بذلك."
+
+#: src/Addons/CustomColumns/Columns/CustomDataColumn.php:165
+msgid "(first row)"
+msgstr "(الصف الأول)"
+
+#: src/Addons/CustomColumns/Columns/CustomDataColumn.php:176
+msgid "Custom columns are available only in the premium version."
+msgstr "الأعمدة المخصصة متاحة فقط في الإصدار المميز."
+
+#: src/Addons/CustomColumns/Columns/CustomDataColumn.php:179
+msgid "Upgrade you plan"
+msgstr "قم بترقية خطتك"
+
+#: src/Addons/CustomColumns/CustomColumnsAddon.php:23
+msgid "Custom table columns"
+msgstr "أعمدة الجدول المخصصة"
+
+#: src/Addons/CustomColumns/CustomColumnsAddon.php:27
+msgid "This feature allows you to add custom columns to your pricing table."
+msgstr "تتيح لك هذه الميزة إضافة أعمدة مخصصة إلى جدول الأسعار الخاص بك."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:37
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:59
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:89
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:127
+msgid "Invalid nonce, please try again"
+msgstr "الرمز غير صالح ، يرجى المحاولة مرة أخرى"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:49
+msgid "Columns were deleted successfully."
+msgstr "تم حذف الأعمدة بنجاح."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:68
+msgid "Invalid column."
+msgstr "عمود غير صالح."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:74
+msgid "Column removed successfully."
+msgstr "تمت إزالة العمود بنجاح."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:77
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:112
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:149
+msgid "Something went wrong. Please try again."
+msgstr "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:109
+msgid "Column added successfully."
+msgstr "تمت إضافة العمود بنجاح."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:116
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:153
+msgid "Invalid column data."
+msgstr "بيانات العمود غير صالحة."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:146
+msgid "Column edited successfully."
+msgstr "تم تعديل العمود بنجاح."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:178
+msgid "Manage custom columns"
+msgstr "إدارة الأعمدة المخصصة"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:317
+msgid "Column name"
+msgstr "اسم العمود"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:318
+msgid "Column content"
+msgstr "محتوى العمود"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:319
+msgid "Content type"
+msgstr "نوع المحتوى"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:320
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:366
+msgid "Update"
+msgstr "تحديث"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:382
+msgid "Delete"
+msgstr "حذف"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:393
+msgid "Enter column name"
+msgstr "أدخل اسم العمود"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:399
+msgid "Enter a name of the column that will be displayed in the table."
+msgstr "أدخل اسم العمود الذي سيتم عرضه في الجدول."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:417
+#: src/Addons/CustomColumns/Schema.php:11
+msgid "Custom column"
+msgstr "عمود مخصص"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:419
+msgid "adds additional input to tiered pricing form where you can  input custom content for each tier."
+msgstr "يضيف إدخالاً إضافيًا إلى نموذج التسعير المتدرج حيث يمكنك إدخال محتوى مخصص لكل مستوى."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:424
+#: src/Addons/CustomColumns/Schema.php:12
+msgid "Price excluding taxes"
+msgstr "السعر لا يشمل الضرائب"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:426
+msgid "shows the price excluding taxes for each tier."
+msgstr "يعرض السعر باستثناء الضرائب لكل مستوى."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:431
+#: src/Addons/CustomColumns/Schema.php:13
+msgid "Price including taxes"
+msgstr "السعر شامل الضرائب"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:433
+msgid "shows the price including taxes for each tier."
+msgstr "يعرض السعر شاملاً الضرائب لكل مستوى."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:438
+#: src/Addons/CustomColumns/Schema.php:14
+msgid "Total row price"
+msgstr "إجمالي سعر الصف"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:440
+msgid "shows the total price for each tier."
+msgstr "يعرض السعر الإجمالي لكل مستوى."
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:458
+msgid "Choose how to format content from your custom column:"
+msgstr "اختر كيفية تنسيق المحتوى من العمود المخصص:"
+
+#: src/Addons/CustomColumns/Form/ColumnsForm.php:463
+#: src/Addons/CustomColumns/Schema.php:20
+#: src/Addons/GlobalTieredPricing/CPT/Columns/Pricing.php:87
+#: src/Addons/ProductCatalogLoop/Settings/ProductCatalogLoopSettingsSection.php:235
+#: src/Addons/ProductCatalogLoop/Settings/ProductCatalogLoopSettingsSection.php:393
+#: src/PricingTable.php:176
+#: src/Settings/CustomOptions/TPTTextTemplate.php:200
+#: src/Settings/Sections/GeneralSection/Subsections/LayoutSubsection.php:168
+#: src/Settings/Sections/GeneralSection/Subsections/LayoutSubsection.php:170
+#: views/admin/components/tiered-pricing-rules-form.php:153
+msgid "Price"
+msgstr "السعر"
