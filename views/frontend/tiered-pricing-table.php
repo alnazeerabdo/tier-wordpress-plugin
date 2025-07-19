@@ -53,7 +53,7 @@
 
     <div class="tiered-pricing-wrapper">
 		<?php if ( ! empty( $settings['title'] ) ) : ?>
-            <h3 style="clear:both; margin: 20px 0;"><?php echo esc_attr( $settings['title'] ); ?></h3>
+            <h3 style="clear:both; margin: 20px 0;"><?php echo esc_attr( $settings['title'] ); ?> (جدول الأسعار)</h3>
 		<?php endif; ?>
 		
 		<?php do_action( 'tiered_pricing_table/tiered_pricing/before', $pricing_rule ); ?>
@@ -75,7 +75,7 @@
 				<?php if ( $settings['quantity_column_title'] ) : ?>
                     <th>
 						<span class="nobr">
-							<?php echo esc_attr( $settings['quantity_column_title'] ); ?>
+							<?php echo esc_attr( $settings['quantity_column_title'] ); ?> (الكمية)
 						</span>
                     </th>
 				<?php endif; ?>
@@ -83,7 +83,7 @@
 				<?php if ( $settings['discount_column_title'] ) : ?>
                     <th>
 						<span class="nobr">
-							<?php echo esc_attr( ( $settings['discount_column_title'] ) ); ?>
+							<?php echo esc_attr( ( $settings['discount_column_title'] ) ); ?> (الخصم)
 						</span>
                     </th>
 				<?php endif; ?>
@@ -91,7 +91,7 @@
 				<?php if ( $settings['price_column_title'] ) : ?>
                     <th>
 						<span class="nobr">
-							<?php echo esc_attr( $settings['price_column_title'] ); ?>
+							<?php echo esc_attr( $settings['price_column_title'] ); ?> (السعر)
 						</span>
                     </th>
 				<?php endif; ?>
@@ -114,7 +114,7 @@
 									<?php echo esc_attr( number_format_i18n( $minimum ) ); ?>
 								</span>
 								<span>
-									<?php echo esc_attr( ' ' . $minimum > 1 ? $settings['quantity_measurement_plural'] : $settings['quantity_measurement_singular'] ); ?>
+									<?php echo esc_attr( ' ' . $minimum > 1 ? $settings['quantity_measurement_plural'] . ' (قطع)' : $settings['quantity_measurement_singular'] . ' (قطعة)' ); ?>
 								</span>
 							</span>
 						<?php else : ?>
@@ -123,7 +123,7 @@
 									<?php echo esc_attr( number_format_i18n( $minimum ) ); ?> - <?php echo esc_attr( number_format_i18n( array_keys( $pricing_rule->getRules() )[0] - 1 ) ); ?>
 								</span>
 								<span>
-									<?php echo esc_attr( ' ' . $settings['quantity_measurement_plural'] ); ?>
+									<?php echo esc_attr( ' ' . $settings['quantity_measurement_plural'] . ' (قطع)' ); ?>
 								</span>
 							</span>
 						<?php endif; ?>
@@ -190,7 +190,7 @@
 						$currentQuantity, $pricing_rule, 'table' );
 				}
 				
-				$quantity .= ' ' . $settings['quantity_measurement_plural'];
+				$quantity .= ' ' . $settings['quantity_measurement_plural'] . ' (قطع)';
 				
 				$currentProductPrice = $pricing_rule->getTierPrice( $currentQuantity );
 				
